@@ -146,36 +146,6 @@ export default function Services() {
           </div>
         </div>
       </section>
-
-      <style jsx>{`
-        .services-grid {
-          margin-bottom: var(--space-2xl);
-        }
-
-        .faq-section {
-          background: var(--bg-secondary);
-        }
-
-        .faq-grid {
-          max-width: 900px;
-          margin: 0 auto;
-        }
-
-        .faq-item {
-          height: fit-content;
-        }
-
-        .faq-question {
-          font-size: 1.1rem;
-          margin-bottom: var(--space-sm);
-          color: var(--text-primary);
-        }
-
-        .faq-answer {
-          color: var(--text-secondary);
-          line-height: 1.6;
-        }
-      `}</style>
     </div>
   );
 }

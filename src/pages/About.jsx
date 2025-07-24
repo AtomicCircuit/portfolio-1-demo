@@ -40,8 +40,8 @@ export default function About() {
             <div className="about-image">
               <div className="image-placeholder">
                 <div className="placeholder-content">
-                  <span className="placeholder-icon"><img src="https://res.cloudinary.com/dcb5odeqa/image/upload/v1753386363/WhatsApp_Image_2025-07-08_at_14.37.58_jwz2za.png" alt="Image lading..." className='image-about-me'/></span>
-                  {/* <p className="placeholder-text">Professional Photo</p> */}
+                  <span className="placeholder-icon">🌟</span>
+                  <p className="placeholder-text">Professional Photo</p>
                 </div>
               </div>
             </div>
@@ -79,113 +79,6 @@ export default function About() {
           </div>
         </div>
       </section>
-
-      <style jsx>{`
-        .about-content {
-          align-items: start;
-          gap: var(--space-2xl);
-        }
-
-        .about-title {
-          font-size: 2rem;
-          margin-bottom: var(--space-lg);
-          color: var(--text-primary);
-        }
-
-        .about-paragraph {
-          color: var(--text-secondary);
-          line-height: 1.7;
-          margin-bottom: var(--space-lg);
-        }
-
-        .credentials {
-          margin-top: var(--space-xl);
-        }
-
-        .credentials-title {
-          font-size: 1.25rem;
-          margin-bottom: var(--space-md);
-          color: var(--text-primary);
-        }
-
-        .credentials-list {
-          list-style: none;
-        }
-
-        .credentials-list li {
-          padding: var(--space-xs) 0;
-          color: var(--text-secondary);
-          position: relative;
-          padding-left: var(--space-lg);
-        }
-
-        .credentials-list li::before {
-          content: '✓';
-          position: absolute;
-          left: 0;
-          color: var(--primary);
-          font-weight: bold;
-        }
-
-        .about-image {
-          display: flex;
-          justify-content: center;
-        }
-
-        .image-placeholder {
-          width: 100%;
-          max-width: 400px;
-          aspect-ratio: 1;
-          background: var(--bg-secondary);
-          border: 2px dashed var(--border);
-          border-radius: var(--radius-lg);
-          display: flex;
-          align-items: center;
-          justify-content: center;
-        }
-
-        .placeholder-content {
-          text-align: center;
-          color: var(--text-muted);
-        }
-
-        .placeholder-icon {
-          font-size: 3rem;
-          display: block;
-          margin-bottom: var(--space-sm);
-        }
-
-        .values-section {
-          background: var(--bg-secondary);
-        }
-
-        .value-card {
-          text-align: center;
-        }
-
-        .value-icon {
-          font-size: 2.5rem;
-          margin-bottom: var(--space-md);
-        }
-
-        .value-title {
-          font-size: 1.25rem;
-          margin-bottom: var(--space-sm);
-          color: var(--text-primary);
-        }
-
-        .value-description {
-          color: var(--text-secondary);
-          line-height: 1.6;
-        }
-
-        @media (max-width: 768px) {
-          .about-content {
-            grid-template-columns: 1fr;
-            gap: var(--space-xl);
-          }
-        }
-      `}</style>
     </div>
   );
 }

@@ -68,7 +68,7 @@ export default function Contact() {
                   <div className="contact-icon">📧</div>
                   <div className="contact-details">
                     <h3>Email</h3>
-                    <p>hello@zenokai.com</p>
+                    <p>hello@astrologer.com</p>
                   </div>
                 </div>
 
@@ -76,7 +76,7 @@ export default function Contact() {
                   <div className="contact-icon">📱</div>
                   <div className="contact-details">
                     <h3>Phone</h3>
-                    <p>+91 9211954646</p>
+                    <p>+1 656268585</p>
                   </div>
                 </div>
 
@@ -228,148 +228,6 @@ export default function Contact() {
           </div>
         </div>
       </section>
-
-      <style jsx>{`
-        .contact-content {
-          gap: var(--space-2xl);
-          align-items: start;
-        }
-
-        .contact-title {
-          font-size: 2rem;
-          margin-bottom: var(--space-lg);
-          color: var(--text-primary);
-        }
-
-        .contact-description {
-          color: var(--text-secondary);
-          line-height: 1.7;
-          margin-bottom: var(--space-xl);
-        }
-
-        .contact-methods {
-          display: flex;
-          flex-direction: column;
-          gap: var(--space-lg);
-        }
-
-        .contact-method {
-          display: flex;
-          align-items: center;
-          gap: var(--space-md);
-        }
-
-        .contact-icon {
-          font-size: 1.5rem;
-          width: 50px;
-          height: 50px;
-          background: var(--bg-secondary);
-          border-radius: 50%;
-          display: flex;
-          align-items: center;
-          justify-content: center;
-        }
-
-        .contact-details h3 {
-          font-size: 1rem;
-          margin-bottom: var(--space-xs);
-          color: var(--text-primary);
-        }
-
-        .contact-details p {
-          color: var(--text-secondary);
-          font-size: 0.95rem;
-        }
-
-        .contact-form {
-          max-width: none;
-        }
-
-        .form-title {
-          font-size: 1.5rem;
-          margin-bottom: var(--space-lg);
-          text-align: center;
-          color: var(--text-primary);
-        }
-
-        .form-group {
-          margin-bottom: var(--space-md);
-        }
-
-        .form-row {
-          display: grid;
-          grid-template-columns: 1fr 1fr;
-          gap: var(--space-md);
-        }
-
-        .form-label {
-          display: block;
-          margin-bottom: var(--space-xs);
-          font-weight: 500;
-          color: var(--text-primary);
-        }
-
-        .form-input,
-        .form-textarea {
-          width: 100%;
-          padding: var(--space-sm);
-          border: 1px solid var(--border);
-          border-radius: var(--radius-md);
-          background: var(--bg-primary);
-          color: var(--text-primary);
-          font-family: inherit;
-          transition: border-color var(--transition-fast);
-        }
-
-        .form-input:focus,
-        .form-textarea:focus {
-          outline: none;
-          border-color: var(--primary);
-        }
-
-        .form-textarea {
-          resize: vertical;
-          min-height: 120px;
-        }
-
-        .birth-info {
-          background: var(--bg-tertiary);
-          padding: var(--space-lg);
-          border-radius: var(--radius-md);
-          margin: var(--space-lg) 0;
-        }
-
-        .birth-info-title {
-          font-size: 1.1rem;
-          margin-bottom: var(--space-md);
-          color: var(--text-primary);
-        }
-
-        .form-submit {
-          width: 100%;
-          margin-top: var(--space-md);
-        }
-
-        .form-submit:disabled {
-          opacity: 0.6;
-          cursor: not-allowed;
-        }
-
-        @media (max-width: 768px) {
-          .contact-content {
-            grid-template-columns: 1fr;
-            gap: var(--space-xl);
-          }
-
-          .form-row {
-            grid-template-columns: 1fr;
-          }
-
-          .birth-info {
-            padding: var(--space-md);
-          }
-        }
-      `}</style>
     </div>
   );
 }
