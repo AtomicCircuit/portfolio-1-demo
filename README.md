@@ -1,35 +1,142 @@
-# React + Vite
-# My React Website
+🌙 Astrologer React Portfolio Template (Vite + React)
 
-A modern React-based website built with reusable components and optimized performance.
+A modern, elegant, and fully responsive Astrology Portfolio Website Template built with React and Vite.
+Designed for astrologers, spiritual consultants, tarot readers, and personal brands who want a calm, professional, and trustworthy online presence.
 
-# Astrologer React Template
+This template focuses on clean UI, smooth user experience, and easy customization, helping you launch your portfolio quickly without unnecessary complexity.
 
-A modern, responsive, and feature-rich **Astrologer Website Template** built with **React**. This template is designed to help astrologers, spiritual consultants, or horoscope-based businesses quickly launch a professional online presence. Built using the **latest React technology**, it is fully customizable and easy to use.
+✨ Key Features
 
----
+Modern, astrology-inspired UI
 
-## ✨ Features
+Fully responsive (mobile, tablet, desktop)
 
-- **Modern UI/UX** – Clean and attractive design tailored for astrology and spiritual services.  
-- **Responsive Layout** – Works seamlessly on mobile, tablet, and desktop.  
-- **React Latest Version** – Built with modern React practices (Hooks & functional components).  
-- **Fast & Lightweight** – Optimized for performance with minimal dependencies.  
-- **Reusable Components** – Prebuilt sections like Services, About, Testimonials, and Contact.  
-- **SEO-Friendly** – Clean code and structure for better search engine visibility.  
-- **Easy Customization** – Well-organized codebase for developers to edit and enhance.  
-- **Cross-Browser Compatible** – Works across all modern browsers.  
+Built with React + Vite for fast performance
 
----
+Light & Dark (Day / Night) theme support
+
+Clean layout with smooth transitions
+
+Reusable and well-structured React components
+
+Minimal dependencies
+
+Easy to customize and extend
+
+Cross-browser compatible
+
+📄 Pages Included
+
+Landing / Home
+
+About
+
+Services
+
+Projects / Work
+
+Contact
+
+Optional 404 Page
+
+🧰 Tech Stack
+
+React (functional components & hooks)
+
+Vite
+
+JavaScript
+
+HTML5
+
+CSS3 (no Tailwind, no UI frameworks)
+
+📁 Project Structure
+src/
+├─ components/
+├─ pages/
+├─ styles/
+├─ assets/
+├─ App.jsx
+├─ main.jsx
+
+🚀 Getting Started
+Prerequisites
+
+Node.js (v16 or later)
+
+npm or yarn
+
+Installation
+
+Unzip the project folder
+
+Open a terminal inside the project directory
+
+Install dependencies:
+
+npm install
 
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Start the development server:
 
-Currently, two official plugins are available:
+npm run dev
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
-## Expanding the ESLint configuration
+Open in your browser:
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+http://localhost:5173
+
+🎨 Customization Guide
+
+Update text and sections inside the pages/ folder
+
+Replace images and icons in the assets/ folder
+
+Modify colors, fonts, and layout in the styles/ directory
+
+Add or remove sections using reusable components
+
+No backend setup is required.
+
+🌗 Light & Dark Theme
+
+This template includes a built-in light and dark theme toggle, allowing visitors to switch themes smoothly.
+Theme handling is managed using React state and CSS.
+
+🌍 Deployment
+
+You can deploy this template easily using:
+
+Vercel
+
+Netlify
+
+Cloudflare Pages
+
+Build command:
+
+npm run build
+
+📦 What’s Included
+
+Complete React + Vite project (ZIP file)
+
+Clean folder structure
+
+Light & Dark theme support
+
+Ready-to-deploy setup
+
+node_modules is not included.
+Run npm install after extracting the ZIP.
+
+📜 License
+
+This template is licensed for personal and commercial use.
+
+❌ You may not resell, redistribute, or share this template as-is or as another template.
+
+🙌 Credits
+
+Designed and developed by Zenokai
